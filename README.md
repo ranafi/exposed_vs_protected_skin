@@ -7,7 +7,7 @@ The goal of this project was to detect and model circadian rhythms in gene expre
 The scripts should be run in the following order:
 
 1. **process_data.R** -- processes raw counts bulk RNA-seq data and stores linear-scale CPM expression matrices and sample information as RDS objects. Again, the data is currently excluded from this repo because of privacy concerns, but will be uploaded prior to publication.
-2. **first_pass_cosinor.R** -- 
+2. **first_pass_cosinor.R** -- implements Cosinor regression analysis, applied to each condition (*PROTECTED* and *EXPOSED*) separately. Identifies rhythmic genes in each condition, and stores results (including fit amplitude and acrophase estimates for each rhythmic gene in each condition) as both RDS objects and .txt files in the *Results* folder.
 3. **differential_cosinor.R**
 
 
