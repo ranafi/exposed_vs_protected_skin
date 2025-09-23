@@ -16,11 +16,11 @@ The scripts should be run in the following order:
 
 6. **timeseries_plots.R** -- generates timeseries expression plots with fit Cosinor curves used in figures.
 
-7. **fig[1-7,S1].R** -- 
+7. **fig[1-7,S1].R** -- generate plots used in all figures.
 
 
 
-If you have any questions, please feel free to contact me by email at mikest (at) udel.edu.
+If you have any questions, please feel free to contact me by email at *mikest (at) udel.edu*.
 
 
 
