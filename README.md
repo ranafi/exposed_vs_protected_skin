@@ -8,7 +8,11 @@ The scripts should be run in the following order:
 
 1. **process_data.R** -- processes raw counts bulk RNA-seq data and stores linear-scale CPM expression matrices and sample information as RDS objects. Again, the data is currently excluded from this repo because of privacy concerns, but will be uploaded prior to publication.
 2. **first_pass_cosinor.R** -- implements Cosinor regression analysis, applied to each condition (*PROTECTED* and *EXPOSED*) separately. Identifies rhythmic genes in each condition, and stores results (including fit amplitude and acrophase estimates for each rhythmic gene in each condition) as both RDS objects and .txt files in the *Results* folder.
-3. **differential_cosinor.R**
+3. **differential_cosinor.R** -- implements a differential Cosinor analysis to identify genes that were significantly differentially rhythmicm between the two conditions.
+
+4. **make_pathway_analysis_inputs.R** -- prepares input files for PSEA, GSEA, and Enrichr pathway analyses.
+
+5. **supplementary_tables.R** -- prepares supplementary tables, which are lists of genes and their rhythmic parameters that fall into several different categories. Combined supplementary table Excel spreadsheet is available in ```Results/supplementary_tables/supplementary_tables.xlsx```.
 
 
 
