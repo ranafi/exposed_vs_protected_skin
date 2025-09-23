@@ -12,7 +12,11 @@ The scripts should be run in the following order:
 
 4. **make_pathway_analysis_inputs.R** -- prepares input files for PSEA, GSEA, and Enrichr pathway analyses.
 
-5. **supplementary_tables.R** -- prepares supplementary tables, which are lists of genes and their rhythmic parameters that fall into several different categories. Combined supplementary table Excel spreadsheet is available in ```Results/supplementary_tables/supplementary_tables.xlsx```.
+5. **supplementary_tables.R** -- prepares supplementary tables, which are lists of genes and their rhythmic parameters that fall into several different categories. Combined supplementary table Excel spreadsheet is available in ```results/supplementary_tables/supplementary_tables.xlsx```.
+
+6. **timeseries_plots.R** -- generates timeseries expression plots with fit Cosinor curves used in figures.
+
+7. **fig[1-7,S1].R** -- 
 
 
 
