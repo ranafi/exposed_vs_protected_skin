@@ -2,4 +2,4 @@ docs/**                 linguist-documentation
 public/**               linguist-vendored
 *.html                  linguist-detectable=false
 *.html                  linguist-generated
-
+*.css			linguist-detectable=false
